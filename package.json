@@ -1,0 +1,17 @@
+{
+  "name": "node-serving-tensorflow",
+  "version": "1.0.0",
+  "description":
+    "A docker container using node.js to serve a tensorflow model.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["node", "docker", "tensorflow"],
+  "author": "RyanLambrecht",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^4.18.1",
+    "express": "^4.16.2"
+  }
+}
